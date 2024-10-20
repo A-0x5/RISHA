@@ -1,0 +1,101 @@
+/*التعديلات الجديده على ستابل الصفحه*/
+:root{
+	--bodyBack:#B79680;/*الخلفيه*/
+	--textColor:#291700;
+	--starColor:#f67034;
+	--sectionBack:#F7EDE7; /*البوكسات*/
+}
+*{/*يتحكم بحجم الصفحة بشكل عام*/
+	margin:0;
+	padding-left:10px;
+	padding-right:10px;
+	box-sizing:border-box;	
+}
+body{
+	background-color:var(--bodyBack);
+}
+.container{/*مكان البوكسات وين يكون بالوسط مثلا*/
+	width:95vw;
+	height:80vh;	
+}	
+.header {
+	width:100%;
+	text-align:center;
+}
+.header h1{
+	font-size:60px;
+	color:#291700;
+    font-family:'Reem Kufi Fun', sans-serif;
+}
+.products{/*حدود البوكسات كيف راح تكون*/
+	width:100%;
+	height:60%;
+	display:flex;/*2 جمب بعض*/
+	justify-content:center;/*تكون بالوسط*/
+	flex-wrap:wrap;/*يكونوا تحت بعض*/
+	gap:40px;/*المسافات بين البوكسات عشان ما تكون متلاصقه*/
+}
+.product{
+	position:relative;
+	background-color:var(--sectionBack);
+	width:430px;
+	height:600px;
+	box-shadow: 0 5px 20px rgba(0,0,0, .3);
+	display:flex;
+	flex-direction:column;/*الكلام يكون جوا البوكس*/
+	justify-content:space-between;/*يضع مسافة بين الوصف والصوره*/
+	padding:20px 20px 40px ;
+	border-radius:50px;
+	transition: .3s;	
+}
+.product:hover{
+	box-shadow:0 5px 10px rgba(0,0,0, .2);
+}
+.image{
+	width:100%;
+	height:60%;
+	padding-left:80px;
+}
+.image img{
+	width:240px;
+}
+
+.nameprice{ /*التعديل على الديف بين اسم الكتاب وسعره*/
+	
+	display:flex;/*مايكون اسم الكتاب تحت يكون جمبه*/
+	justify-content:space-between;
+}
+.nameprice h3{ /*اسم الكتاب*/
+	font-size:25px;
+	color:var(--textColor);
+	font-family: 'Mada', sans-serif;
+
+}
+.nameprice span{ /*سعر الكتاب */
+	font-size:25px;
+	color:var(--starColor);
+}
+.product p{
+	font-size:18px;
+	line-height:25px;/*المسافه بين الاسطر*/
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+.bay{/*button add to cart اعدل فين يكون موقعه*/
+	position:absolute;/*يكون على اليمين*/
+	bottom:20px;
+	right:20px;
+}
+.bay button{
+	padding:10px 20px;
+	border-radius:50px;
+	border:none;
+	background-color:#382807;
+	color:#FFFFFF;
+	font-size:18px;
+	transition: .5s;
+}
+.bay button:hover{
+	transform:scale(1.1);
+}
+
+

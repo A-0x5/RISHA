@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Amiri&family=Aref+Ruqaa:wght@700&family=Gulzar&family=Harmattan&family=IBM+Plex+Sans+Arabic:wght@300&family=Jomhuria&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Amiri&family=Aref+Ruqaa:wght@700&family=Gulzar&family=Harmattan&family=IBM+Plex+Sans+Arabic:wght@300&family=Jomhuria&family=Marhey:wght@700&display=swap');
+
+.price {
+	font-family: 'Jomhuria', cursive;
+	
+	font-size:26px;
+	
+}
+
+h1{
+	font-family: 'Jomhuria', cursive;
+font-size:44px;}
+
+h3{
+	
+	font-size:25px;
+}
+
+.s1{/*  العنوان الي فيه h1 */
+	padding:8px;
+	text-align:center;
+color:#7E4435;
+font-size:50px;
+
+}
+.S2{color:#3B3433;/* العنوان الي فيه span */
+font-style:'Harmattan', sans-serif;
+font-size:50px;}
+.box1{max-width:1200px;/* المسافه بين كل كتاب وكتاب  */
+		margin:auto;
+	/* لون خلفيه حجم المكان الي فيه صور الكتب مو البودي كله */
+overflow:auto;
+	
+
+}
+.imgs{
+	margin:10px;/*حجم السافه بين الصوره ومحاذاه الصفحه*/
+	float:left;
+	width:390px;/*حجم المسافه بين كل صوره وصوره*/
+
+}
+.imgs img{
+	width:100%;
+	height:60%;
+	position:center;
+}
+
+
+.price{
+	display:black;
+	margin:155px;
+color:red;}
+
+
+.imgs{/*اضافه بوكس لكل كتاب ومحتوياته */
+	width:300px;
+	height:600px;
+	text-align:center;
+	margin-left:80px;/*حجم السافه بين الصوره ومحاذاه الصفحه*/
+box-shadow: 0 2px 6px 0 gray;	
+	
+}
+.favicons{/* تتعديلات على ايقونه المفضله */
+ background-color:#CDBBBB;
+ width:50px;
+ height:50px;
+ border-radius:50%; /* عشان اخليه دائره او لا  */
+ border:0;
+ right:20px;
+ top:1px;
+ padding-left:7px;
+ padding-top:8px;
+ color:#3B3433;
+ cursor:pointer;
+
+}
+/* تعديلات على ايقونة السله */
+.cart{
+	
+ background-color:#7E4435;
+ width:50px;
+ height:50px;
+ border-radius:50%; /* عشان اخليه دائره او لا  */
+ border:0;
+ right:20px;
+ top:1px;
+    padding-left:7px;
+ padding-top:8px;
+ color:white;
+ cursor:pointer;
+ 
+}
+.digout img {
+	text-color:red;
+	height:5%;
+	width:9%;
+	
+}
+
+/*التعديل على صفحة العملاء  */
+
+#review{
+	background-color: #a88d84;
+	
+}
+.warber{
+	
+	margin-tpo:10%;
+	
+
+}
+.warber h1 {
+	font-size:50px;
+	margin-bottom:30px;/* المسافة بين العنوان والعناصر   */
+	text-align:center;
+ color:black;
+}
+.team{   
+display:flex;/* منفصله عن بعض بشكل افقي*/
+text-align:center;
+width:auto;
+justify-content:center;
+
+
+}
+.team .client{ 
+
+background:#F7EDE7;
+margin:5px;
+margin-bottom:50px;
+width:300px;/* المسافه بين كل عميل وعميل*/
+border:0px; /* عشان اخليه دائره او لا  */
+box-shadow: 0 2px 9px gray;
+}
+.client img {
+	
+	height:50px;
+	width:50px;
+	border-radius:100px;
+	margin:3px;
+	position:center;
+	padding:5px;
+	background-color:#B79680;
+}
+	
+

@@ -1,0 +1,81 @@
+/*----cart iteam---------*/
+body{
+	background-color:#f3efed;
+}
+p{
+	font-family: 'Mada', sans-serif;
+	
+}
+.cart-page{
+	margin:80px auto;
+}
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+.cart-info{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:75%
+
+}	
+th{/*الخط العلوي للتيبل الكبير*/
+	text-align:left;
+	padding:5px;
+	background:#B79680;
+	font-family: 'Mada', sans-serif;
+
+	
+}
+td {/*الكلام للتيبل اللي تحت*/
+	padding:10px 5px;
+	font-family: 'Mada', sans-serif;
+	
+}
+
+td input{
+	width:40px;
+	height:30px;
+	padding:5px;
+}
+td a{
+	color:#B79680;
+	font-size:16px;
+	padding-right:30px;
+}
+td img{
+	width:80px;
+	height:80px;
+    margin-left:20px;
+	padding-left:10px;
+}
+
+
+.total-price{
+	display:flex;
+	justify-content:flex-end;
+	
+}
+.total-price table{/* عشان  الخط اللي احطيته اللي تحت */
+
+	border-top:3px solid #B79680; 
+	width:100%;
+	max-width:466px; 
+	margin-right:75%;
+
+}
+td:last-child{/*مكان التيبل اللي تحت*/
+	text-align:right;
+}
+th:last-child{/*وين يكون مكان كلمة المنتج*/
+	text-align:right;
+}
+
+/* اتوقع عشان يصير كويس على الجوال ويقبل*/
+@media only  screen and(max-width:600){
+
+.cart-info p{
+	display:none;
+	
+}
+}

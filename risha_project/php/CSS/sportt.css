@@ -1,0 +1,35 @@
+
+.title{
+ display:flex ;
+ justify-content: center;<!--تختصر اني احط الكلام في الوسط بدون اي قياسات-->
+ color:#8d6e63;
+ font-size:36px;
+ margin-bottom:90px;<!--عشان يعطيني مسافه بين العنوان و الكروت -->
+ background:#8d6e63;
+ }
+.content{
+ justify-content: center;<!--تختصر اني احط الكلام في الوسط بدون اي قياسات-->
+flex-direction:row;<!--اخلي الكروت جنب بعض -->
+flex-wrap: wrap;
+
+}
+.card{
+ background-color:#B79680;
+ box-shadow:0 5px 25px rgba(1 1 1 /25%);<!--احدد اتجاه الظل من الثالث خانات الي بكتبها-->
+ border-radius: 10px;
+ padding:5%;<!--مساحة جوا الالمنت -->
+ margin:88%; <!--مساحه بين الالمنت-->
+ transition:0.7s ease;
+}
+
+.card:hover{<!--وقت ما ااشر على الكرت يسير فيه حركة -->
+transform: scale(1.1);
+ background-color:#F7EDE7;
+}
+  
+.info{
+  text-align: center;
+   transition:0.7s ease;
+   transform: scale(1.1);
+  }
+  

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+}
+
+.contanire .content{
+    text-align: center;
+}
+
+.contanire .content h3{
+    font-size: 30px;
+    color: black;
+   }
+
+.contanire .content h3 span{/*ايرور */
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.contanire .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contanire .content .btn{
+display: inline-block;
+padding: 10px 30px;
+font-size: 20px;
+background: black;
+color: white;
+margin: 0 5px;
+text-transform: capitalize;
+}
+
+
+
+.form-continer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background:#f3efed;
+    /*bakround out*/
+}
+.form-continer form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px reba(0,0,0,1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+        /*bakround little*/
+
+}
+
+.form-continer form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+ 
+
+.form-continer form .form_btn{
+    background:#cfbcb0;
+    color: white;
+   text-transform: capitalize;
+   font-size: 21px;
+   cursor: pointer;
+}
+
+.form-continer form .form_btn:hover{
+    background: #9b806e;
+    color: #fff;
+}
+
+.form-continer form p{/* هل لديك حساب */
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.form-continer form p a{
+    color: #8f664a;
+}
+
+
+.form-continer form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
